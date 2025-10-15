@@ -1,0 +1,143 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.pydevproject
+.settings/
+*.sublime-project
+*.sublime-workspace
+
+# Testing
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+.hypothesis/
+*.cover
+*.py,cover
+.cache
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# pyenv
+.python-version
+
+# Type checking
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.pyre/
+.pytype/
+
+# Documentation
+docs/_build/
+docs/.doctrees/
+site/
+
+# Logs
+*.log
+logs/
+*.log.*
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Desktop.ini
+
+# Data and Storage
+data/
+storage/
+*.pkl
+*.pickle
+*.h5
+*.hdf5
+*.parquet
+
+# uv (패키지 매니저)
+# uv.lock은 커밋해야 하므로 제외하지 않음
+.uv-cache/
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+*.bak
+*.swp
+
+# Secrets
+*.key
+*.pem
+*.crt
+secrets.yaml
+secrets.json
+
+# AI/ML Models
+*.bin
+*.onnx
+*.pt
+*.pth
+models/
+
+# Node (문서 빌드 시 사용 가능)
+node_modules/
+package-lock.json
+yarn.lock
+
+# Docker
+.dockerignore
+
+# CI/CD
+.github/secrets/
+
+# Monitoring
+.prometheus/
+.grafana/

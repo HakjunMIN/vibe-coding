@@ -1,0 +1,79 @@
+# Copilot이 무시할 파일 및 디렉토리
+
+# 빌드 산출물
+dist/
+build/
+*.egg-info/
+__pycache__/
+*.pyc
+*.pyo
+*.so
+
+# 가상 환경
+.venv/
+venv/
+env/
+ENV/
+
+# 테스트 관련
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+
+# IDE 설정
+.vscode/settings.json
+.idea/
+*.swp
+*.swo
+*~
+
+# 로그 파일
+*.log
+logs/
+
+# 환경 변수
+.env
+.env.local
+.env.*.local
+
+# 데이터 파일
+data/
+*.db
+*.sqlite
+*.sqlite3
+
+# 임시 파일
+tmp/
+temp/
+*.tmp
+
+# OS 관련
+.DS_Store
+Thumbs.db
+
+# 문서 빌드 산출물
+docs/_build/
+docs/.doctrees/
+
+# Jupyter Notebook 체크포인트
+.ipynb_checkpoints/
+
+# uv 관련 (락 파일은 Copilot이 볼 수 있어야 함)
+# uv.lock은 제외하지 않음
+
+# 배포 관련
+kubernetes/secrets.yaml
+*.pem
+*.key
+*.crt
+
+# 대용량 모델 파일
+*.bin
+*.h5
+*.pkl
+*.onnx
+
+# 캐시
+.cache/
+*.cache
