@@ -1,3 +1,7 @@
+src/
+docs/
+examples/
+tests/
 # Python
 __pycache__/
 *.py[cod]

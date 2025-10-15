@@ -24,6 +24,7 @@ Pydantic을 사용한 Agent 설정 클래스를 만듭니다.
 
 ```
 AI Agent를 위한 설정 클래스를 Pydantic BaseModel로 만들어줘.
+AzureOpenAI를 사용할 것이므로 여기에 필요한 클래스들을 사용해 (예: AzureOpenAIClient)
 
 요구사항:
 - 클래스명: AgentConfig
@@ -124,7 +125,7 @@ class AgentConfig(BaseModel):
 ### 2단계: 기본 Agent 클래스 생성
 
 #### 📌 목표
-Microsoft Autogen을 사용한 기본 Agent 클래스를 만듭니다.
+Microsoft Agent Framework을 사용한 기본 Agent 클래스를 만듭니다.
 
 #### ✍️ 프롬프트 작성 예시
 
@@ -239,9 +240,7 @@ Agent 프로젝트를 위한 로깅 유틸리티를 만들어줘.
 요구사항:
 - 함수: setup_logger(name: str, level: str = "INFO") -> logging.Logger
 - 로그 형식: [시간] [레벨] [로거명] 메시지
-- 파일과 콘솔에 동시 출력
-- 로그 파일은 logs/ 디렉토리에 {name}.log로 저장
-- 로그 파일은 10MB마다 롤링, 최대 5개 유지
+- 콘솔에 스트리밍으로만 출력
 - 색상 지원 (colorlog 라이브러리 사용 시도, 없으면 기본)
 
 Python logging 모듈 표준 사용해줘.
@@ -314,7 +313,7 @@ Microsoft Agent Framework 샘플 참고:
 
 요구사항:
 - .env에서 설정 로드
-- OpenAIChatClient 또는 AzureOpenAIChatClient 생성
+- AzureOpenAIChatClient 생성
 - ChatAgent 생성 (instructions 포함)
 - async/await 패턴 사용
 - "안녕하세요, AI Agent 테스트입니다" 메시지 전송

@@ -78,6 +78,47 @@ source .venv/bin/activate  # macOS/Linux
 uv pip install -e .
 ```
 
+### 4. 환경 변수 설정
+
+`.env` 파일을 생성하고 Azure OpenAI 설정을 추가하세요:
+
+```bash
+cp .env.example .env
+```
+
+`.env` 파일 편집:
+
+```bash
+AZURE_OPENAI_ENDPOINT=https://your-resource.openai.azure.com
+AZURE_OPENAI_KEY=your-azure-openai-key
+AZURE_OPENAI_DEPLOYMENT=your-deployment-name
+```
+
+### 5. 빠른 시작 예제
+
+```python
+import asyncio
+from src.agent.factory import AgentFactory
+
+async def main():
+    # AgentFactory로 Agent 생성 (Singleton 패턴)
+    factory = AgentFactory()
+    agent = await factory.create_from_env()
+    
+    # 메시지 전송
+    result = await agent.run("안녕하세요, AI Agent 테스트입니다")
+    print(result)
+
+if __name__ == "__main__":
+    asyncio.run(main())
+```
+
+또는 제공된 예제 실행:
+
+```bash
+uv run python examples/basic_usage.py
+```
+
 ## 📚 실습 단계
 
 이 실습은 5단계로 구성되어 있으며, 각 단계마다 **어떤 프롬프트를 작성해야 하는지** 자세히 안내합니다.
