@@ -58,13 +58,15 @@ GitHub Copilot을 활용한 바이브코딩(Vibe Coding)으로 AI Agent를 만�
 ```bash
 git clone https://github.com/yourusername/vibe-coding.git
 cd vibe-coding
+git checkout begin
+
 ```
 
 ### 2. Python 환경 설정
 
 ```bash
 # Python 버전 확인
-uv python install 3.11
+uv python install 3.12
 
 # 가상 환경 생성 및 활성화
 uv venv
@@ -148,6 +150,8 @@ uv run python examples/basic_usage.py
 - 통합 테스트 작성 요청
 - 배포 설정 파일 생성 가이드
 
+
+
 ## 🎨 커스텀 코딩 규칙
 
 이 프로젝트에는 일관된 코드 스타일을 유지하기 위한 커스텀 코딩 규칙이 적용되어 있습니다.
@@ -186,39 +190,19 @@ uv run python examples/basic_usage.py
    - "타입 힌트를 포함해서..."
    - "docstring을 Google 스타일로..."
 
+5. **⚠️ 디버깅을 위한 로깅 요청하기** (중요!)
+   - 새로운 프레임워크나 라이브러리 사용 시 오류가 자주 발생합니다
+   - 오류 추적을 위해 **적절한 로그 출력을 포함하도록 요청**하세요
+   - ✅ "각 주요 단계마다 로그를 출력하고, 오류 발생 시 상세한 에러 메시지를 로깅해줘"
+   - ✅ "try-except 블록에서 예외를 캐치하고, 디버깅에 필요한 컨텍스트 정보를 로그에 포함해줘"
+   - ✅ "함수 입력 파라미터와 반환 값을 DEBUG 레벨로 로깅해줘 (logging모듈 사용, stdio로 출력)"
+
 ### 효과적인 Copilot 사용법
 
 - **Inline 제안**: 코드 작성 중 자동 완성 활용
 - **Copilot Chat**: 복잡한 로직은 Chat으로 설명 요청
 - **코드 리팩토링**: 기존 코드를 선택하고 개선 요청
 - **테스트 생성**: 함수를 선택하고 테스트 케이스 생성 요청
-
-## 🗂️ 프로젝트 구조
-
-```
-vibe-coding/
-├── .github/
-│   ├── copilot-instructions.md    # Copilot 커스텀 규칙
-│   └── .copilotignore              # Copilot이 무시할 파일
-├── steps/
-│   ├── step-01/
-│   │   └── README.md               # 1단계 가이드
-│   ├── step-02/
-│   │   └── README.md               # 2단계 가이드
-│   ├── step-03/
-│   │   └── README.md               # 3단계 가이드
-│   ├── step-04/
-│   │   └── README.md               # 4단계 가이드
-│   └── step-05/
-│       └── README.md               # 5단계 가이드
-├── src/
-│   └── agent/                      # Agent 소스 코드
-├── tests/                          # 테스트 코드
-├── .python-version                 # Python 버전
-├── pyproject.toml                  # 프로젝트 설정
-├── uv.lock                         # 의존성 락 파일
-└── README.md                       # 이 파일
-```
 
 ## 🤝 기여하기
 
