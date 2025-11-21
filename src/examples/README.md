@@ -71,6 +71,7 @@ AZURE_OPENAI_CHAT_DEPLOYMENT_NAME=gpt-4
 2. 의존성 설치:
 ```bash
 uv sync
+source .venv/bin/activate  # macOS/Linux
 ```
 
 ### 예제 실행
@@ -87,6 +88,9 @@ python examples/logger_example.py
 
 # 검증 예제
 python examples/validators_example.py
+
+# 고급 예제
+python examples/advanced_agent.py
 ```
 
 ## 📚 추가 문서
