@@ -1,3 +1,9 @@
+---
+title: "Step 03: 메시지 처리 및 응답 생성"
+duration_minutes: TODO
+last_updated: 2026-08-30
+---
+
 # Step 03: 메시지 처리 및 응답 생성
 
 ## 🎯 학습 목표

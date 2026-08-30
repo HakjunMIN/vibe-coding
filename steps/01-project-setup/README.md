@@ -1,3 +1,9 @@
+---
+title: "Step 01: 프로젝트 초기 설정"
+duration_minutes: TODO
+last_updated: 2026-08-30
+---
+
 # Step 01: 프로젝트 초기 설정
 
 ## 🎯 학습 목표

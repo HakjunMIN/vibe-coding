@@ -1,3 +1,9 @@
+---
+title: "Step 04: 커스텀 기능 추가"
+duration_minutes: TODO
+last_updated: 2026-08-30
+---
+
 # Step 04: 커스텀 기능 추가
 
 ## 🎯 학습 목표

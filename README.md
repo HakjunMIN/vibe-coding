@@ -1,3 +1,31 @@
+---
+type: workshop
+title: "Vibe Coding: AI Agent 만들기 실습"
+description: "GitHub Copilot을 활용한 Vibe Coding으로 Microsoft Agent Framework 기반 AI Agent를 단계별로 만드는 Python 실습"
+level: beginner
+authors:
+   - Andy Min
+   - Kyungtaak
+contacts:
+   - "@HakjunMIN"
+   - "@kyungtaak"
+duration_minutes: TODO
+tags:
+   - github-copilot
+   - microsoft-agent-framework
+   - python
+   - vibe-coding
+language: ko
+execution:
+   - codespaces
+   - local
+status: active
+source: original
+last_updated: 2026-08-30
+validated_on:
+original_content_date: 2025-11-21
+---
+
 # 🎵 Vibe Coding: AI Agent 만들기 실습
 
 GitHub Copilot을 활용한 바이브코딩(Vibe Coding)으로 AI Agent를 만드는 실습 리포지토리입니다.

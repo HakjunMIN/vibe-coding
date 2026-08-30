@@ -1,3 +1,9 @@
+---
+title: "Step 05: 테스트 및 배포"
+duration_minutes: TODO
+last_updated: 2026-08-30
+---
+
 # Step 05: 테스트 및 배포
 
 ## 🎯 학습 목표

@@ -1,3 +1,9 @@
+---
+title: "Step 02: 기본 Agent 구조 만들기"
+duration_minutes: TODO
+last_updated: 2026-08-30
+---
+
 # Step 02: 기본 Agent 구조 만들기
 
 ## 🎯 학습 목표
