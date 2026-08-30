@@ -1,0 +1,5 @@
+[allowlist]
+description = "Allow documented placeholder credentials"
+regexTarget = "match"
+paths = ['''^\.github/copilot-instructions\.md$''']
+regexes = ['''api_key\s*=\s*"sk-1234567890abcdef"''']

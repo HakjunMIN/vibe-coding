@@ -63,7 +63,7 @@ BaseAgent 클래스를 사용한 예제입니다.
 
 1. `.env` 파일 생성:
 ```bash
-AZURE_OPENAI_ENDPOINT=https://your-resource.openai.azure.com
+AZURE_OPENAI_ENDPOINT=https://<your-resource>.openai.azure.com
 AZURE_OPENAI_KEY=your-azure-openai-key
 AZURE_OPENAI_CHAT_DEPLOYMENT_NAME=gpt-4
 ```
@@ -118,4 +118,4 @@ python examples/advanced_agent.py
 
 - [Microsoft Agent Framework](https://github.com/microsoft/agent-framework)
 - [Azure OpenAI Service](https://azure.microsoft.com/en-us/products/ai-services/openai-service)
-- [Project README](../README.md)
+- [Project README](../../README.md)

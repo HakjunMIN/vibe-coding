@@ -5,7 +5,7 @@ AzureOpenAIChatClient, following the official Microsoft Agent Framework patterns
 
 실행 방법:
     1. .env 파일 생성 및 Azure OpenAI 설정:
-       AZURE_OPENAI_ENDPOINT=https://your-resource.openai.azure.com
+    AZURE_OPENAI_ENDPOINT=https://<your-resource>.openai.azure.com
        AZURE_OPENAI_KEY=your-azure-openai-key
        AZURE_OPENAI_CHAT_DEPLOYMENT_NAME=gpt-4
 

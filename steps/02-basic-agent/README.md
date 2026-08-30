@@ -1,3 +1,9 @@
+---
+title: "Step 02: 기본 Agent 구조 만들기"
+duration_minutes: TODO
+last_updated: 2026-08-30
+---
+
 # Step 02: 기본 Agent 구조 만들기
 
 ## 🎯 학습 목표
@@ -11,7 +17,16 @@
 - 타입 안전성을 고려한 코드 생성
 - Pydantic을 활용한 데이터 검증
 
-## 🚀 시작하기
+## 사전 요구사항
+
+- [Step 01: 프로젝트 초기 설정](../01-project-setup/README.md) 완료
+- Azure OpenAI 예제를 실행할 endpoint, API 키, deployment 이름
+
+## 소요 시간
+
+<!-- TODO: 저자 작성 -->
+
+## 실습 단계
 
 ### 1단계: Agent 설정 클래스 생성
 
@@ -354,6 +369,8 @@ if __name__ == "__main__":
 3. **의존성 관리**: 다른 모듈의 클래스 import 관계 설명
 4. **코드 품질 요구**: 타입 힌트, docstring, 에러 처리
 
+## 검증
+
 ### 체크리스트 ✅
 
 다음 파일들이 생성되었는지 확인하세요:
@@ -383,11 +400,13 @@ uv run ruff check src/
 uv run python examples/basic_usage.py
 ```
 
-## 🔄 다음 단계
+## 정리 (Clean-up)
 
-기본 Agent 구조가 완성되었습니다!
+<!-- TODO: 저자 작성 -->
 
-👉 [Step 03: 메시지 처리 및 응답 생성](../step-03/README.md)로 이동하여 실제 대화 기능을 구현해봅시다.
+## 트러블슈팅
+
+<!-- TODO: 저자 작성 -->
 
 ## 💡 고급 프롬프트 팁
 
@@ -433,3 +452,11 @@ pytest 사용:
 ---
 
 **훌륭합니다! 🚀 계속해서 다음 단계로 진행하세요!**
+
+## 이전/다음
+
+- [이전: Step 01 프로젝트 초기 설정](../01-project-setup/README.md)
+
+기본 Agent 구조가 완성되었습니다!
+
+[Step 03: 메시지 처리 및 응답 생성](../03-message-processing/README.md)로 이동하여 실제 대화 기능을 구현해봅시다.

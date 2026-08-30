@@ -32,7 +32,7 @@ pip install agent-framework python-dotenv pydantic
 ```bash
 # Azure OpenAI 설정 (필수)
 AZURE_OPENAI_KEY=your-api-key-here
-AZURE_OPENAI_ENDPOINT=https://your-resource.openai.azure.com
+AZURE_OPENAI_ENDPOINT=https://<your-resource>.openai.azure.com
 
 # 선택 사항
 AZURE_OPENAI_DEPLOYMENT_NAME=gpt-4  # 기본값: gpt-4
@@ -248,7 +248,7 @@ python examples/base_agent_example.py
 
 - [Microsoft Agent Framework - Python](https://github.com/microsoft/agent-framework/tree/main/python)
 - [Getting Started Samples](https://github.com/microsoft/agent-framework/tree/main/python/samples/getting_started)
-- [프로젝트 코딩 규칙](.github/copilot-instructions.md)
+- [프로젝트 코딩 규칙](../.github/copilot-instructions.md)
 
 ## 라이선스
 

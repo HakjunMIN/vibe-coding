@@ -511,7 +511,7 @@ python examples/validators_example.py
 
 - [OWASP Input Validation](https://cheatsheetseries.owasp.org/cheatsheets/Input_Validation_Cheat_Sheet.html)
 - [Python re 모듈](https://docs.python.org/3/library/re.html)
-- [프로젝트 코딩 규칙](.github/copilot-instructions.md)
+- [프로젝트 코딩 규칙](../.github/copilot-instructions.md)
 
 ## 라이선스
 
