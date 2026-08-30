@@ -348,7 +348,7 @@ uv pip install colorlog
 
 - [Python logging 공식 문서](https://docs.python.org/3/library/logging.html)
 - [colorlog GitHub](https://github.com/borntyping/python-colorlog)
-- [프로젝트 코딩 규칙](.github/copilot-instructions.md)
+- [프로젝트 코딩 규칙](../.github/copilot-instructions.md)
 
 ## 라이선스
 

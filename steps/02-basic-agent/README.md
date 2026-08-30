@@ -387,7 +387,7 @@ uv run python examples/basic_usage.py
 
 기본 Agent 구조가 완성되었습니다!
 
-👉 [Step 03: 메시지 처리 및 응답 생성](../step-03/README.md)로 이동하여 실제 대화 기능을 구현해봅시다.
+👉 [Step 03: 메시지 처리 및 응답 생성](../03-message-processing/README.md)로 이동하여 실제 대화 기능을 구현해봅시다.
 
 ## 💡 고급 프롬프트 팁
 

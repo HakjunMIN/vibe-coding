@@ -248,7 +248,7 @@ python examples/base_agent_example.py
 
 - [Microsoft Agent Framework - Python](https://github.com/microsoft/agent-framework/tree/main/python)
 - [Getting Started Samples](https://github.com/microsoft/agent-framework/tree/main/python/samples/getting_started)
-- [프로젝트 코딩 규칙](.github/copilot-instructions.md)
+- [프로젝트 코딩 규칙](../.github/copilot-instructions.md)
 
 ## 라이선스
 

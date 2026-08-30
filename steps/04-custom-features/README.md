@@ -429,7 +429,7 @@ uv run mypy src/agent/plugins/
 
 커스텀 기능 추가가 완료되었습니다!
 
-👉 [Step 05: 테스트 및 배포](../step-05/README.md)로 이동하여 프로젝트를 완성해봅시다.
+👉 [Step 05: 테스트 및 배포](../05-testing-and-deployment/README.md)로 이동하여 프로젝트를 완성해봅시다.
 
 ## 💡 심화 프롬프트
 

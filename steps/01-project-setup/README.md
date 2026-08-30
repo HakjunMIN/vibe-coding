@@ -208,7 +208,7 @@ Python 프로젝트를 위한 .gitignore 파일을 생성해줘.
 #### ✍️ 프롬프트 작성 예시
 
 ```
-이 디렉토리(step-01 완료 후)를 위한 간단한 README.md 내용을 추가해줘.
+이 디렉토리(01-project-setup 완료 후)를 위한 간단한 README.md 내용을 추가해줘.
 
 포함할 내용:
 - 프로젝트 설정 완료 상태
@@ -258,7 +258,7 @@ uv run python --version
 
 프로젝트 초기 설정이 완료되었습니다! 
 
-👉 [Step 02: 기본 Agent 구조 만들기](../step-02/README.md)로 이동하여 실제 Agent 코드를 생성해봅시다.
+👉 [Step 02: 기본 Agent 구조 만들기](../02-basic-agent/README.md)로 이동하여 실제 Agent 코드를 생성해봅시다.
 
 ## 💡 추가 팁
 

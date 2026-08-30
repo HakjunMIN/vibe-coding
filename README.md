@@ -125,27 +125,27 @@ uv run python examples/basic_usage.py
 
 이 실습은 5단계로 구성되어 있으며, 각 단계마다 **어떤 프롬프트를 작성해야 하는지** 자세히 안내합니다.
 
-### [Step 01: 프로젝트 초기 설정](./steps/step-01/README.md)
+### [Step 01: 프로젝트 초기 설정](./steps/01-project-setup/README.md)
 - 프로젝트 구조 생성을 위한 프롬프트 작성법
 - 기본 의존성 추가 프롬프트
 - 환경 설정 파일 생성 가이드
 
-### [Step 02: 기본 Agent 구조 만들기](./steps/step-02/README.md)
+### [Step 02: 기본 Agent 구조 만들기](./steps/02-basic-agent/README.md)
 - Microsoft Agent Framework SDK를 사용한 Agent 생성 프롬프트
 - ChatAgent와 ChatClient 구조 이해
 - async/await 패턴 적용 방법
 
-### [Step 03: 메시지 처리 및 응답 생성](./steps/step-03/README.md)
+### [Step 03: 메시지 처리 및 응답 생성](./steps/03-message-processing/README.md)
 - 메시지 핸들러 구현 프롬프트
 - LLM 통합을 위한 프롬프트 작성
 - 대화 컨텍스트 관리 구현 요청
 
-### [Step 04: 커스텀 기능 추가](./steps/step-04/README.md)
+### [Step 04: 커스텀 기능 추가](./steps/04-custom-features/README.md)
 - 도구(Tools) 시스템 구현 프롬프트
 - Function Calling 패턴 적용
 - 외부 API 통합 도구 작성 방법
 
-### [Step 05: 테스트 및 배포](./steps/step-05/README.md)
+### [Step 05: 테스트 및 배포](./steps/05-testing-and-deployment/README.md)
 - 유닛 테스트 생성 프롬프트
 - 통합 테스트 작성 요청
 - 배포 설정 파일 생성 가이드
