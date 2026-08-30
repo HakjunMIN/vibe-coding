@@ -91,7 +91,7 @@ cp .env.example .env
 `.env` 파일 편집:
 
 ```bash
-AZURE_OPENAI_ENDPOINT=https://your-resource.openai.azure.com
+AZURE_OPENAI_ENDPOINT=https://<your-resource>.openai.azure.com
 AZURE_OPENAI_KEY=your-azure-openai-key
 AZURE_OPENAI_CHAT_DEPLOYMENT_NAME=your-deployment-name
 ```

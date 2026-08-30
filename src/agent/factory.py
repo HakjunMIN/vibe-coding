@@ -112,7 +112,7 @@ class AgentFactory:
             >>> config = AgentConfig(
             ...     model="gpt-4",
             ...     api_key="your-key",
-            ...     endpoint="https://your-resource.openai.azure.com"
+            ...     endpoint="https://<your-resource>.openai.azure.com"
             ... )
             >>> agent = await factory.create_agent(config)
         """

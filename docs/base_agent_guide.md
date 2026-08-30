@@ -32,7 +32,7 @@ pip install agent-framework python-dotenv pydantic
 ```bash
 # Azure OpenAI 설정 (필수)
 AZURE_OPENAI_KEY=your-api-key-here
-AZURE_OPENAI_ENDPOINT=https://your-resource.openai.azure.com
+AZURE_OPENAI_ENDPOINT=https://<your-resource>.openai.azure.com
 
 # 선택 사항
 AZURE_OPENAI_DEPLOYMENT_NAME=gpt-4  # 기본값: gpt-4
